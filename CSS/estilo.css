@@ -16,7 +16,7 @@ body {
 }
 
 #wrapper {
-    background-image: url('../IMG/vlad-gorshkov-G1jbCAqp5sk-unsplash.jpg');
+    background-image: url('../IMG/fort\ fondo.avif');
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -55,9 +55,10 @@ body {
 .frontal h1 {
     color: hsla(0, 0%, 20%, 1);
     text-shadow: 0px 1px 1px hsla(0, 0%, 100%, 1);
-    font-size: 1em;
+    font-size: 23px;
     text-align: center;
     margin-top: 110px;
+    line-height: 1.5; /* Ajusta la altura de línea para separar los textos dentro del h1 */
 }
 
 .frontal h1 span {
@@ -65,6 +66,8 @@ body {
     text-shadow: 0px 1px 1px hsla(0, 0%, 100%, 1);
     font-size: .8em;
     text-align: center;
+    margin-top: 20px; /* Ajusta este valor según sea necesario para separar el span del texto anterior */
+    display: block; /* Asegura que el span se comporte como un bloque para que margin-top funcione */
 }
 
 .trasera {
@@ -157,7 +160,6 @@ body {
 #carta p {
     color: hsla(0, 0%, 20%, 1);
     text-shadow: 0px 1px 1px hsla(0, 0%, 100%, 1);
-    font-size: 0.85em;
     line-height: 1.45em;
     margin: 30px 50px 0 50px;
 }
